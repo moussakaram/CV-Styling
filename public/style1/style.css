@@ -334,13 +334,27 @@ hgroup{
 
 
     @media only screen and (max-width: 540px) {
+      .content {
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr ;}
+        img{
+          position:absolute;
+          bottom:10px;
+          left:10px;
+        }
+
+        #contact h3{
+          color: black;
+        }
+        
+      
+      
       #contact{
         position:relative;
         
-        background: black;
       }
       
-     
       }
       
       .contact{
