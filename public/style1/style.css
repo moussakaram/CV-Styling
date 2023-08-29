@@ -331,3 +331,42 @@ hgroup{
       padding: 6px;
       color: white;
     }
+
+
+    @media only screen and (max-width: 540px) {
+      #contact{
+        position:relative;
+        
+        background: black;
+      }
+      
+     
+      }
+      
+      .contact{
+        margin: 0;
+      }
+      
+      .contact-type,
+      .contact-value{
+        display: inline-block;
+        margin: 0;
+        padding: 2px;
+      }
+      
+      .contact-type{
+        width: 130px;
+        background: red;
+        color: white;
+      }
+      .contact-value {
+      width: 300px;
+      }
+      .contact-value a{
+        text-decoration: none;
+        color:red;
+      }
+    
+      .contact-skype .contact-value{
+        color:red;
+  }
