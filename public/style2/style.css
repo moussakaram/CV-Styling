@@ -204,3 +204,79 @@ h3{
   color: white;
   float: right;
 }
+
+
+.experience h4 {
+  color: teal;
+  margin-bottom: 1px;
+  float: left;
+}
+
+.experience p {
+  margin-top: 20px;
+  float: left;
+}
+
+.experience-details {
+  color: gray;
+  margin-top: 18px;
+  float: right;
+}
+
+.experience-institution {
+  display: none;
+}
+
+.experience-date-separator {
+  color: teal;
+}
+
+
+#contact h3,
+.contact-skype,
+.contact-type,
+.contact-value a {
+  display: none;
+}
+
+.contact {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 10px;
+}
+
+.contact-phone {
+  background-image: url("../images/phone.png");
+}
+
+.contact-email {
+  background-image: url("../images/email.png");
+}
+
+.contact-github {
+  background-image: url("../images/github.png");
+}
+
+.contact-facebook {
+  background-image: url("../images/facebook.png");
+}
+
+@media only screen and (max-width: 500px) {
+  header figure {
+      display: none;
+  }
+
+  section {
+      padding-left: 0;
+  }
+
+  h3 {
+      position: relative;
+      border-right: none;
+  }
+}
+
